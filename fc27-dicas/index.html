@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dicas FC 27</title>
+<meta name="description" content="Dicas de ataque, defesa, bola parada, Ultimate Team, Modo Carreira e The Grounds no EA Sports FC 27.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Guia de jogo</p>
+    <h1>Dicas FC 27</h1>
+    <p class="lead">O FC 27 deu menos ajuda automática na defesa e mais controle nas corridas sem bola. Aqui estão as dicas para se adaptar rápido, do primeiro Kick Off até a Rivals.</p>
+    <div class="progress" aria-live="polite">
+      <div class="bar"><span id="bar-fill"></span></div>
+      <p id="progress-text">0 dicas dominadas</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="controls" aria-label="Filtros">
+    <label class="search">
+      <span class="sr-only">Buscar dica</span>
+      <input id="search" type="search" placeholder="Buscar dica (ex.: escanteio, química, jockey)">
+    </label>
+    <div class="chips" id="chips" role="tablist"></div>
+    <label class="toggle"><input type="checkbox" id="hide-done"> Esconder dicas já dominadas</label>
+  </section>
+
+  <section id="tips" class="grid" aria-live="polite"></section>
+  <p id="empty" class="empty" hidden>Nenhuma dica encontrada. Tente outra busca.</p>
+
+  <section class="note">
+    <h2>Antes de levar para o online</h2>
+    <p>Os comandos abaixo usam o esquema padrão (PlayStation / Xbox). Se você alterou os controles nas configurações, os botões mudam. A EA também ajusta a jogabilidade com atualizações, então confira as <em>Pitch Notes</em> oficiais quando um patch sair.</p>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <p>Site de fãs, sem vínculo com a EA. EA Sports FC é marca da Electronic Arts.</p>
+</footer>
+
+<script src="tips.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
